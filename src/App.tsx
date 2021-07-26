@@ -2,6 +2,8 @@ import React from 'react';
 import './App.less';
 import taskIcon from './assets/img/bug.svg';
 export const App = () => {
+    let a = '';
+
     return (
         <div>
             <img src={taskIcon}></img>
@@ -9,5 +11,3 @@ export const App = () => {
         </div>
     );
 };
-
-export const a = () => {};
