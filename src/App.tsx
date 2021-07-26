@@ -1,9 +1,8 @@
-import React from 'react';
-import './App.less';
-import taskIcon from './assets/img/bug.svg';
+import React from "react";
+import "./App.less";
+import taskIcon from "./assets/img/bug.svg";
 export const App = () => {
-    let a = '';
-
+    let a = "";
     return (
         <div>
             <img src={taskIcon}></img>
